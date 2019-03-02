@@ -1,4 +1,4 @@
-# Java gyakorlás [![Build Status](https://travis-ci.org/arondev/java_gyakorlas.png?branch=master)](https://travis-ci.org/arondev/java_gyakorlas)
+# Java gyakorlás
 
 Rövid ismertető a projekt(ek)ről: 
 * A feladatok [IntelliJ IDEA][IDEA] IDE segítségével írodtak. 
