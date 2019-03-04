@@ -1,5 +1,5 @@
+package java_gyakorlas.gyakorlas;
 import java.util.*;
- 
 public class DecimalToBinary
 {
     public static void main(String args[])

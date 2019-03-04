@@ -1,3 +1,5 @@
+package java_gyakorlas.gyakorlas;
+
 import java.io.*;
 
 public class Dolgozat2018_01_16 {
