@@ -39,6 +39,7 @@ public class Gyakorlas2_2019_03_04 {
 
         while(gyerek < t.length) {
             t[gyerek] = new Gyerek();
+
             System.out.printf("Add meg a(z) %d. gyerek nevét: ", (gyerek + 1));
             t[gyerek].gyerekNev = sc.next();
 
@@ -80,7 +81,7 @@ public class Gyakorlas2_2019_03_04 {
             osszegKor += t[i].gyerekKor;
         }
         atlagKor = (double)osszegKor/t.length;
-        System.out.printf("Az átlag életkor %.2f év.", atlagKor);
+        System.out.printf("Az átlag életkor %.2f év.%n", atlagKor);
 
         /*
         *
@@ -93,6 +94,6 @@ public class Gyakorlas2_2019_03_04 {
         for(int i = 0; i < t.length; i++) {
             if(t[i].gyerekOkos) darabOkos++;
         }
-        System.out.printf("Összesen %d db okos gyerek van.", darabOkos);
+        System.out.printf("Összesen %d db okos gyerek van.%n", darabOkos);
     }
 }
