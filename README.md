@@ -1,4 +1,4 @@
-![](https://img.shields.io/github/issues-raw/arondev/java_gyakorlas.svg)
+![](https://img.shields.io/github/last-commit/arondev/java_gyakorlas.svg) ![](https://img.shields.io/github/issues-raw/arondev/java_gyakorlas.svg)
 # Java gyakorlás 
 
 Rövid ismertető a projekt(ek)ről: 
