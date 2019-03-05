@@ -1,4 +1,4 @@
-# Java gyakorlás ![](https://img.shields.io/codeclimate/issues/https://github.com/arondev/java_gyakorlas.svg)
+# Java gyakorlás ![](https://img.shields.io/github/issues-raw/arondev/java_gyakorlas.svg)
 
 Rövid ismertető a projekt(ek)ről: 
 * A feladatok [IntelliJ IDEA][IDEA] IDE segítségével írodtak. 
