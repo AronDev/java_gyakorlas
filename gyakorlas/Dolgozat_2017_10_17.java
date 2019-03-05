@@ -1,6 +1,8 @@
 package java_gyakorlas.gyakorlas;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class Dolgozat_2017_10_17 {
     public static void main(String[] args) {

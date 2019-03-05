@@ -1,4 +1,6 @@
-import java.util.*;
+package java_gyakorlas.gyakorlas;
+
+import java.util.ArrayList;
 public class Gyakorlas1_2018_01_06 {
     public static void main(String args[]) {
         ArrayList<Integer> tomb  = new ArrayList();

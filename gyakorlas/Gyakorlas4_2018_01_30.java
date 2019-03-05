@@ -1,3 +1,5 @@
+package java_gyakorlas.gyakorlas;
+
 public class Gyakorlas4_2018_01_30 {
     public static void main(String[] args) {
         int tomb[] = new int[100];

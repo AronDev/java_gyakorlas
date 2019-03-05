@@ -1,4 +1,8 @@
-import java.io.*;
+package java_gyakorlas.gyakorlas;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 public class Gyakorlas2_2017_12_12 {
     public static void main(String[] args) {
         BufferedReader be = null;

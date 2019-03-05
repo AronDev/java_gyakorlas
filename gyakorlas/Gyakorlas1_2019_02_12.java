@@ -1,3 +1,5 @@
+package java_gyakorlas.gyakorlas;
+
 public class Gyakorlas1_2019_02_12 {
     public static void main(String[] args) {
         int eletkor[] = new int[30];

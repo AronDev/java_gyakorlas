@@ -1,6 +1,8 @@
 package java_gyakorlas.gyakorlas;
 
-import java.io.*;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 public class Gyakorlas5_2017_10_06 {
     public static void main(String[] args) {

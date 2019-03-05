@@ -1,4 +1,6 @@
-import java.util.*;
+package java_gyakorlas.gyakorlas;
+
+import java.util.Scanner;
 public class Gyakorlas2_2019_01_21 {
     public static void main(String[] args) {
         String be = null;

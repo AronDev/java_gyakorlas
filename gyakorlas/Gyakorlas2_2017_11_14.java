@@ -1,6 +1,8 @@
 package java_gyakorlas.gyakorlas;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class Gyakorlas2_2017_11_14 {
     public static void main(String[] args) {

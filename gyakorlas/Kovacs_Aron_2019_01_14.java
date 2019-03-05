@@ -1,3 +1,5 @@
+package java_gyakorlas.gyakorlas;
+
 public class Kovacs_Aron_2019_01_14 {
     public static void main(String[] args) {
         int t[] = new int[100];
