@@ -1,0 +1,6 @@
+1. Tölts fel egy 100 elemû tömböt 1 és 1000 közti számokkal!
+2. Írd egy file-ba a számokat!
+3. A file végére írd a legnagyobbat és, hogy hány db 50-nél kisebb szám van!
+   Pl: 999 a legnagyobb szám. 5 db 50-nél kisebb van a tömbben.
+4. Olvasd be a file-ból a számokat egy másik tömbbe!
+5. Rendezd a számokat, majd írd vissza egy másik file-ba!

@@ -1,0 +1,27 @@
+1. Hozz létre egy 100 elemû tömböt, amelyben egy rekord van! A rekord elsõ eleme 1 és 1000 közti számokkal legyen feltöltve, a második egy véletlen karakterrel!
+
+1a. Ha ezt nem tudod megírni, legyen csak egy 100 elemû tömb 1 és 1000 közti számokkal!
+
+2. A számokat és a karaktert egy szóközzel elválasztva írd egy file-ba!
+
+3. Írasd ki a képernyõre, hogy van-e 10 alatti szám!
+
+4. Rendezd a számokat csökkenõ sorrendbe!
+
+5. A rendezett számsort írd a file végére egy elválasztó sor alá!
+
+
+pl:
+45 *
+854 o
+6 +
+.
+.
+249 z
+--------------------------
+987
+875
+.
+.
+3
+
