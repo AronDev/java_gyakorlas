@@ -1,4 +1,4 @@
-![](https://img.shields.io/github/last-commit/arondev/java_gyakorlas.svg) ![](https://img.shields.io/github/issues-raw/arondev/java_gyakorlas.svg) ![](https://img.shields.io/discord/551481831309180928.svg?label=discord)
+![](https://img.shields.io/github/last-commit/arondev/java_gyakorlas.svg) ![](https://img.shields.io/github/issues-raw/arondev/java_gyakorlas.svg) [<img src="https://img.shields.io/discord/551481831309180928.svg?label=discord">](https://discord.gg/FcMepyM)
 # Java gyakorlás 
 
 Rövid ismertető a projekt(ek)ről: 
