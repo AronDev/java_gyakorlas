@@ -1,5 +1,5 @@
-# Java gyakorlás 
 ![](https://img.shields.io/github/issues-raw/arondev/java_gyakorlas.svg)
+# Java gyakorlás 
 
 Rövid ismertető a projekt(ek)ről: 
 * A feladatok [IntelliJ IDEA][IDEA] IDE segítségével írodtak. 
