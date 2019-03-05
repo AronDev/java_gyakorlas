@@ -39,6 +39,7 @@ public class Gyakorlas2_2019_03_04 {
 
         while(gyerek < t.length) {
             t[gyerek] = new Gyerek();
+
             System.out.printf("Add meg a(z) %d. gyerek nevét: ", (gyerek + 1));
             t[gyerek].gyerekNev = sc.next();
 
