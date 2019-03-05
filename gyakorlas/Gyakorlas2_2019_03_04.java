@@ -33,12 +33,10 @@ public class Gyakorlas2_2019_03_04 {
          *
          */
 
-        // Változók deklarálása
         Scanner sc = new Scanner(System.in);
         Gyerek[] t = new Gyerek[3];
         int gyerek = 0;
 
-        // Tömb feltöltése
         while(gyerek < t.length) {
             t[gyerek] = new Gyerek();
             System.out.printf("Add meg a(z) %d. gyerek nevét: ", (gyerek + 1));
@@ -75,11 +73,9 @@ public class Gyakorlas2_2019_03_04 {
          *
          */
 
-        // Változók deklarálása
         int osszegKor = 0;
         double atlagKor = 0.0;
 
-        // Átlag életkor számolása
         for(int i = 0; i < t.length; i++) {
             osszegKor += t[i].gyerekKor;
         }
@@ -92,10 +88,8 @@ public class Gyakorlas2_2019_03_04 {
         *
          */
 
-        // Változók deklarálása
         int darabOkos = 0;
 
-        // Okosak megszámlálása
         for(int i = 0; i < t.length; i++) {
             if(t[i].gyerekOkos) darabOkos++;
         }
