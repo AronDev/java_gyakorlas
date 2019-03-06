@@ -1,4 +1,5 @@
-# Java gyakorlás
+[<img src="https://img.shields.io/github/last-commit/arondev/java_gyakorlas.svg">](https://github.com/arondev/java_gyakorlas/commits/master) [<img src="https://img.shields.io/github/issues-raw/arondev/java_gyakorlas.svg">](https://github.com/arondev/java_gyakorlas/issues) [<img src="https://img.shields.io/discord/551481831309180928.svg?label=discord">](https://discord.gg/FcMepyM) [<img src="https://img.shields.io/github/search/arondev/java_gyakorlas/goto.svg?label=visits">]()
+# Java gyakorlás 
 
 Rövid ismertető a projekt(ek)ről: 
 * A feladatok [IntelliJ IDEA][IDEA] IDE segítségével írodtak. 
