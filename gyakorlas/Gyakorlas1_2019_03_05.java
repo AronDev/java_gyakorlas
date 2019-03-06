@@ -182,7 +182,7 @@ public class Gyakorlas1_2019_03_05 {
      */
 
     private static void feladat8() {
-        int bank = 2000000;
+        int bank = (int)2e6;
         int ev = 3;
         double kamat = 2.32;
         double osszeg = bank;
