@@ -11,7 +11,11 @@ public class Gyakorlas2_2019_03_05 {
         //feladat1();
         //feladat2();
         //feladat3();
-        feladat4();
+        //feladat4();
+        //feladat5();
+        //feladat6();
+        //feladat7();
+        feladat8();
     }
     private static void feladat1() {
         Scanner sc = new Scanner(System.in);
@@ -109,5 +113,89 @@ public class Gyakorlas2_2019_03_05 {
         Collections.sort(nums, Collections.reverseOrder());
 
         System.out.printf("A második legnagyobb szám a beírtak közül: %d%n", nums.get(1));
+    }
+    private static void feladat5() {
+        Scanner sc = new Scanner(System.in);
+
+        List<Integer> nums = new ArrayList<Integer>();
+
+        try {
+            for(int i = 0; i < 5; i++) {
+                System.out.printf("%d. szám: ", (i+1));
+                nums.add(sc.nextInt());
+            }
+        } catch(InputMismatchException ime) {
+            System.out.println("Hibás érték!");
+        }
+        Collections.sort(nums);
+        System.out.print("\nA számok nagyszág szerint rendezve: ");
+        for(int i = 0; i < nums.size(); i++) {
+            System.out.print(nums.get(i) + ", ");
+        }
+    }
+    private static void feladat6() {
+        Scanner sc = new Scanner(System.in);
+
+        double  a = 0,
+                b = 0,
+                c = 0;
+
+        try {
+            System.out.print("'a' értéke: ");
+            a = sc.nextDouble();
+
+            System.out.print("'b' értéke: ");
+            b = sc.nextDouble();
+
+            System.out.print("'c' értéke: ");
+            c = sc.nextDouble();
+        } catch(InputMismatchException ime) {
+            System.out.println("Hibás érték!");
+        }
+
+        double d = Math.pow(b, 2) - (4 * a * c);
+
+        if(d >= 0) {
+            System.out.printf("x1 = %.4f%n", ((b * -1) + Math.sqrt(d)) / (2 * a));
+            System.out.printf("x2 = %.4f%n", ((b * -1) - Math.sqrt(d)) / (2 * a));
+        } else System.out.println("A diszkrimináns értéke negatív!");
+    }
+    private static void feladat7() {
+        Scanner sc = new Scanner(System.in);
+
+        int kor = 0;
+
+        try {
+            System.out.print("Életkor: ");
+            kor = sc.nextInt();
+        } catch(InputMismatchException ime) {
+            System.out.println("Hibás érték!");
+        }
+        if(kor >= 0) {
+            if (kor < 14) System.out.println("Gyerek");
+            else if (kor < 18) System.out.println("Fiatalkorú");
+            else if (kor < 24) System.out.println("Ifjú");
+            else if (kor < 60) System.out.println("Felnőtt");
+            else System.out.println("Idős");
+        } else System.out.println("Az életkor nem lehet negatív");
+    }
+    private static void feladat8() {
+        Scanner sc = new Scanner(System.in);
+
+        int kor = 0;
+
+        try {
+            System.out.print("Életkor: ");
+            kor = sc.nextInt();
+        } catch(InputMismatchException ime) {
+            System.out.println("Hibás érték!");
+        }
+        if(kor >= 0) {
+            if (kor < 14) System.out.println("Gyerek");
+            else if (kor < 18) System.out.println("Fiatalkorú");
+            else if (kor < 24) System.out.println("Ifjú");
+            else if (kor < 60) System.out.println("Felnőtt");
+            else System.out.println("Idős");
+        } else System.out.println("Az életkor nem lehet negatív");
     }
 }
