@@ -14,8 +14,7 @@ public class Gyakorlas2_2019_03_05 {
         //feladat4();
         //feladat5();
         //feladat6();
-        //feladat7();
-        feladat8();
+        feladat7();
     }
     private static void feladat1() {
         Scanner sc = new Scanner(System.in);
@@ -168,29 +167,10 @@ public class Gyakorlas2_2019_03_05 {
         try {
             System.out.print("Életkor: ");
             kor = sc.nextInt();
-        } catch(InputMismatchException ime) {
+        } catch (InputMismatchException ime) {
             System.out.println("Hibás érték!");
         }
-        if(kor >= 0) {
-            if (kor < 14) System.out.println("Gyerek");
-            else if (kor < 18) System.out.println("Fiatalkorú");
-            else if (kor < 24) System.out.println("Ifjú");
-            else if (kor < 60) System.out.println("Felnőtt");
-            else System.out.println("Idős");
-        } else System.out.println("Az életkor nem lehet negatív");
-    }
-    private static void feladat8() {
-        Scanner sc = new Scanner(System.in);
-
-        int kor = 0;
-
-        try {
-            System.out.print("Életkor: ");
-            kor = sc.nextInt();
-        } catch(InputMismatchException ime) {
-            System.out.println("Hibás érték!");
-        }
-        if(kor >= 0) {
+        if (kor >= 0) {
             if (kor < 14) System.out.println("Gyerek");
             else if (kor < 18) System.out.println("Fiatalkorú");
             else if (kor < 24) System.out.println("Ifjú");
