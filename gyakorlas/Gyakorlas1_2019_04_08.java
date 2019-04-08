@@ -12,7 +12,7 @@ public class Gyakorlas1_2019_04_08 {
         }
         
         // input(str) bekérése
-        System.out.print("Paros/paratlan? ");
+        System.out.print("Paros/Paratlan/10? ");
         inputStr = sc.next();
         switch(inputStr) {
             case "Paros": {} case "paros": {
@@ -27,7 +27,14 @@ public class Gyakorlas1_2019_04_08 {
                     if(t[i] % 2 != 0) System.out.print(t[i] + ", ");
                 }
                 break;
-            } default: System.err.println("Ismeretlen típus!");
+            } case "10": {
+                System.out.print("\n10-zel osztható számok: ");
+                for(int i = 0; i < t.length; i++) {
+                    if(t[i] % 10 == 0) System.out.print(t[i] + ", ");
+                }
+                break;
+            } 
+            default: System.err.println("Ismeretlen típus!");
         }
     }
 }
