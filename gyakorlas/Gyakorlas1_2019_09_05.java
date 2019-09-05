@@ -14,13 +14,11 @@ public class Gyakorlas1_2019_09_05 {
 
         // Bekérés
         for (int i = 0; i < 3; i++) {
-            System.out.printf("Háromszög %d. oldala: ", i);
+            System.out.printf("Háromszög %d. oldala: ", (i+1));
             try {
                 triangle[i] = inputText.nextDouble();
 
-                if(triangle[i] > 0) {
-                    // todo
-                } else {
+                if(triangle[i] < 0) {
                     System.err.println("Az értéknek nagyobbnak kell lennie mint 0!");
                     i--;
                 }
