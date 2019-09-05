@@ -1,4 +1,5 @@
-[<img src="https://img.shields.io/github/last-commit/arondev/java_gyakorlas.svg">](https://github.com/arondev/java_gyakorlas/commits/master) [<img src="https://img.shields.io/github/issues-raw/arondev/java_gyakorlas.svg">](https://github.com/arondev/insiderpg/issues)
+[<img src="https://img.shields.io/github/last-commit/arondev/java_gyakorlas.svg">](https://github.com/arondev/java_gyakorlas/commits/master)
+[<img src="https://img.shields.io/github/issues-raw/arondev/java_gyakorlas.svg">](https://github.com/arondev/insiderpg/issues)
 # Java gyakorlás 
 
 Rövid ismertető a projekt(ek)ről: 
@@ -7,7 +8,7 @@ Rövid ismertető a projekt(ek)ről:
     * Iskolai feladatok
     * Házi feladatok
     * Otthoni gyakorlás
- * Ha hibát találtok (ami nem valószínű, de lehet), akkor azt jelezhetitek [itt][issues].
+ * Ha hibát találtok akkor azt jelezhetitek [itt][issues].
 
 
 
