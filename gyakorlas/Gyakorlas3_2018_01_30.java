@@ -37,5 +37,5 @@ public class Gyakorlas3_2018_01_30 {
             System.out.println((i+9) + ". évfolyamban " + evfolyam + " diák van.");
             evfolyam = 0;
         }
-    } 
+    }
 }
