@@ -10,7 +10,7 @@ public class Gyakorlas1_2019_09_05 {
         // Változók
         Scanner inputText = new Scanner(System.in);
 
-        double [] triangle = new double[3];
+        double [] triangle= new double[3];
 
         // Bekérés
         for (int i = 0; i < 3; i++) {
