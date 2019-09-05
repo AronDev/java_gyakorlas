@@ -1,5 +1,3 @@
-package java_gyakorlas.gyakorlas;
-
 public class Gyakorlas2_2017_11_21 {
    public static void main(String[] args) {
        int a[] = {9,-8,7,15,0,1,32,-20,10};

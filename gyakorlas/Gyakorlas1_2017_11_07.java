@@ -1,5 +1,3 @@
-package java_gyakorlas.gyakorlas;
-
 public class Gyakorlas1_2017_11_07 {
     public static void main(String args[]) {
         // 1. Feladat

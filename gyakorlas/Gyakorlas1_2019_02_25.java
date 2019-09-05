@@ -1,5 +1,3 @@
-package java_gyakorlas.gyakorlas;
-
 public class Gyakorlas1_2019_02_25 {
     public static void main(String[] args) {
         int t[] = new int[100];

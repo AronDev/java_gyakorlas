@@ -1,5 +1,3 @@
-package java_gyakorlas.gyakorlas;
-
 import java.util.Scanner;
 public class DecimalToBinary
 {

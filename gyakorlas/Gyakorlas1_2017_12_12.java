@@ -1,6 +1,5 @@
-package java_gyakorlas.gyakorlas;
-
 import java.io.*;
+
 public class Gyakorlas1_2017_12_12 {
     public static void main(String[] args) {
         BufferedReader be = null;

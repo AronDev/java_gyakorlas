@@ -1,5 +1,3 @@
-package java_gyakorlas.gyakorlas;
-
 import java.util.Calendar;
 public class Gyakorlas2_2018_01_30 {
    public static void main(String[] args) {

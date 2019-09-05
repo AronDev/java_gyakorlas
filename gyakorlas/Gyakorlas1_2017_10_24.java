@@ -1,9 +1,7 @@
-package java_gyakorlas.gyakorlas;
-
 import java.io.*;
 
 public class Gyakorlas1_2017_10_24 {
-    public static void main(String args[]) {
+    public static void main(String [] args) {
         BufferedReader be = null;
         PrintWriter ki = null;
         try {

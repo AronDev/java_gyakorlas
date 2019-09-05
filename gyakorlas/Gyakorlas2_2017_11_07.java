@@ -1,7 +1,5 @@
 // konzol, 1 évben az egyes hónapokban mennyi pénzt kaptunk
 // egész év, átlagos, hányszor kaptál 3000-nél többet
-package java_gyakorlas.gyakorlas;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

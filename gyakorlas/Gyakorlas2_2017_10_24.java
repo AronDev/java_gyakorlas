@@ -1,15 +1,13 @@
-package java_gyakorlas.gyakorlas;
-
 import java.io.*;
 
 public class Gyakorlas2_2017_10_24 {
-    public static void main(String args[]) {
+    public static void main(String [] args) {
         BufferedReader be = null;
         PrintWriter ki = null;
         try {
             be = new BufferedReader(new FileReader("szamok.txt"));
             ki = new PrintWriter(new FileWriter("v02.txt"));
-            double tomb[] = new double[20];
+            double [] tomb = new double[20];
             int j = 0;
             int pozitiv = 0;
             double osszeg = 0;
@@ -30,7 +28,9 @@ public class Gyakorlas2_2017_10_24 {
                 try {
                     be.close();
                     ki.close();
-                } catch(IOException e) {}
+                } catch(IOException e) {
+                    //TODO
+                }
             }
         }
     }

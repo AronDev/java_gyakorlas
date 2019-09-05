@@ -1,5 +1,3 @@
-package java_gyakorlas.gyakorlas;
-
 import java.io.*;
 
 public class Gyakorlas3_2017_10_24 {

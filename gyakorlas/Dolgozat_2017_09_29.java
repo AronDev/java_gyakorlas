@@ -1,4 +1,3 @@
-package java_gyakorlas.gyakorlas;
 public class Dolgozat_2017_09_29 {
     public static void main(String[] args) {
         // 1. feladat

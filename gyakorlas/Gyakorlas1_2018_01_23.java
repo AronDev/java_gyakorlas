@@ -1,8 +1,7 @@
-package java_gyakorlas.gyakorlas;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
 public class Gyakorlas1_2018_01_23 {
     public static void main(String[] args) {
         try {

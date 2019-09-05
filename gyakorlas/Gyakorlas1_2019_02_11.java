@@ -1,5 +1,3 @@
-package java_gyakorlas.gyakorlas;
-
 public class Gyakorlas1_2019_02_11 {
     public static void main(String[] args) {
         //1

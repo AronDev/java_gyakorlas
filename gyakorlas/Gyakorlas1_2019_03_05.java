@@ -1,5 +1,3 @@
-package java_gyakorlas.gyakorlas;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
