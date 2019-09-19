@@ -1,4 +1,3 @@
-import java.util.Scanner;
 import javax.swing.JOptionPane;
 public class Gyakorlas1_2019_09_19 {
     public static void main(String[] args) {
@@ -7,7 +6,6 @@ public class Gyakorlas1_2019_09_19 {
         int [] cimletek = {20000, 10000, 5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5};
         int [] cimletek_db = new int [cimletek.length];
         String outputStr = "";
-        Scanner input = new Scanner(System.in);
         
         // Bekérés
         String inputBox = JOptionPane.showInputDialog(
