@@ -1,5 +1,5 @@
 /*
- * Anagramma ellenőrzése
+ * Palindroma ellenőrzése
  */
 
 import java.util.Scanner;
@@ -23,7 +23,7 @@ public class Gyakorlas2_2019_09_26 {
         }
         
         // Ellenőrzés
-        System.out.printf("A szó %sanagramma!%n", reversedStr.equals(inputStr) ? "" : "nem ");
+        System.out.printf("A szó %spalindroma!%n", reversedStr.equals(inputStr) ? "" : "nem ");
     }
     private static String atalakitas(String iStr) {
         String returnStr = iStr.trim();
