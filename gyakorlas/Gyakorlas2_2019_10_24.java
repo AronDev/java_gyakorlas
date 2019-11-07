@@ -8,8 +8,9 @@ import java.io.File;
 
 public class Gyakorlas2_2019_10_24 {
     /* Globális változók */
-    private static Dimension frameSize = new Dimension(800, 600);
+    private static final Dimension frameSize = new Dimension(800, 600);
     private static final int N = 20;
+    private static String wTitle = "Dobókocka verseny";
 
 
     public static void main(String[] args) {
@@ -29,7 +30,7 @@ public class Gyakorlas2_2019_10_24 {
 
         /* Ablak létrehozása */
         JFrame.setDefaultLookAndFeelDecorated(false);
-        JFrame f = new JFrame("Dobókocka versens");
+        JFrame f = new JFrame(wTitle);
         /*f.setSize(frameSize);
         f.setPreferredSize(frameSize);*/
         f.setResizable(false);
