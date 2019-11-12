@@ -1,29 +1,45 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import javax.swing.JOptionPane;
 
 public class Gyakorlas1_2019_11_07 extends javax.swing.JFrame {
-    
-    class Player {
+
+    private final String wTitle = "Dobókocka verseny";
+
+    private static final int pCount = 2;
+
+    private File selectedFile = null;
+
+    static class Player {
         String pName = "";
-        String pFile = "";
-        int [] pNums = new int[20];
+        ArrayList <Integer> pNums = new ArrayList<>(20);
     }
-    
+
     void readData(File fName) {
+        Player [] p = new Player[pCount];
+        for(int i = 0; i < pCount; i++) {
+            p[i] = new Player();
+        }
+
         try {
             Scanner sc = new Scanner(fName);
-            String nums[];
-            for(int i = 0; i < 1; i++) {
-                nums = sc.nextLine().split(",");
-                
+            String [][] tempNums = new String[pCount][];
+            for(int i = 0; i < pCount; i++) {
+                tempNums[i] = sc.nextLine().split(",");
+                p[i].pName = tempNums[i][0];
+                for(int j = 1; j < 20; j++) {
+                    p[i].pNums.add(Integer.parseInt(tempNums[i][j]));
+                }
             }
         } catch(FileNotFoundException fnfe) {
             /* Nincs ilyen fájl */
+            showMsg(JOptionPane.ERROR_MESSAGE, "Nem található fájl!", "Nem található fájl! (" + fnfe.getMessage() + ")");
         }
     }
-    
+
     private static void showMsg(int msgType, String msgTitle, String msgText) {
         JOptionPane.showMessageDialog(null, msgText, msgTitle, msgType);
     }
@@ -51,12 +67,12 @@ public class Gyakorlas1_2019_11_07 extends javax.swing.JFrame {
         jEditorPane1 = new javax.swing.JEditorPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Dobókocka verseny");
+        setTitle(wTitle);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Dobókocka verseny");
+        jLabel1.setText(wTitle);
 
         jButton1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton1.setText("Számítás");
@@ -136,15 +152,16 @@ public class Gyakorlas1_2019_11_07 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        /* Beolvasás megkezdése */
+        readData(selectedFile);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         /* Tallózás */
         int returnVal = jFileChooser1.showOpenDialog(null);
         if (returnVal == jFileChooser1.APPROVE_OPTION) {
-            /* Sikeres beolvasás */            
-            readData(jFileChooser1.getSelectedFile());
+            /* Sikeres beolvasás */
+            selectedFile = jFileChooser1.getSelectedFile();
         } else {
             /* Bezárva a felhasználó által */
         }
@@ -154,11 +171,6 @@ public class Gyakorlas1_2019_11_07 extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
