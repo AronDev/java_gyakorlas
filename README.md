@@ -3,7 +3,7 @@
 # Java gyakorlás 
 
 Rövid ismertető a projekt(ek)ről: 
-* A feladatok [IntelliJ IDEA][IDEA] IDE segítségével írodtak. 
+* A feladatok [IntelliJ IDEA][IDEA] és [NetBeans][NETBEANS] IDE segítségével írodtak. 
 * A feladatok többnyire ezekbe a _csoportokba_ oszthatóak be:
     * Iskolai feladatok
     * Házi feladatok
@@ -13,4 +13,5 @@ Rövid ismertető a projekt(ek)ről:
 
 
 [IDEA]: https://www.jetbrains.com/idea/
+[NETBEANS]: https://netbeans.org/
 [Issues]: https://github.com/arondev/java_gyakorlas/issues
