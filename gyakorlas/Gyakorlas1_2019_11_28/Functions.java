@@ -1,6 +1,5 @@
 package Gyakorlas1_2019_11_28;
 
-//import static Gyakorlas1_2019_11_28.Main.sportagLista;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
@@ -52,6 +51,7 @@ public class Functions {
             String [] elements;
             while(sc.hasNextLine()) {
                 line = sc.nextLine();
+                line = line.replaceAll("\\uFEFF", ""); // invisible Unicode character
                 elements = line.split(";");
                 Datastores.sportagLista.add(new Sportag(elements[0]));
                 for(int i = 1; i <= 16; i++) {
