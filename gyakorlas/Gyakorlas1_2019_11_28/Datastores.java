@@ -12,6 +12,6 @@ class Sportag {
     
     public Sportag(String nev) {
         this.nev = nev;
-        Functions.systemMsg(Functions.DEBUG_MSG, String.format("sportagLista => '%s'", nev));
+        if(Main.DEBUG) System.out.println(String.format("sportagLista => '%s'", nev));
     }
 }
