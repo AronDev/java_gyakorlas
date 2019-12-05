@@ -206,10 +206,6 @@ public class BMI extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jSlider1AncestorMoved(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_jSlider1AncestorMoved
-        
-    }//GEN-LAST:event_jSlider1AncestorMoved
-
     private void jSlider1StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jSlider1StateChanged
         /* TESTSÚLY slider */
         int testsuly = jSlider1.getValue();
