@@ -24,13 +24,6 @@ public class Functions {
         }
         return outputArr;
     }
-
-    public Award getAwardByPlayerName(String pName) {
-        for (int i = 0; i < Dijak.awardInfo.size(); i++) {
-            if (Dijak.awardInfo.get(i).playerName.equalsIgnoreCase(pName)) return Dijak.awardInfo.get(i);
-        }
-        return null;
-    }
     
     public static void feladat3() {
         System.out.printf("3. feladat:\n\t2007 és 2010 között %d díjat osztottak ki.\n", Dijak.awardInfo.size());
